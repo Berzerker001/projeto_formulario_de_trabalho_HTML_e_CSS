@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+
+body{
+    background-image: url("teamprog.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+   text-align: center;
+    margin: 50 auto;
+}
+
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+.container  .text p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.formulario{
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 0.25rem;
+    font-weight: 400px;
+    margin: 50px auto;
+    line-height: 1.4;
+    padding: 40px;
+    width: 640px;
+    color: white;
+}
+
+.name{
+    line-height: 2;
+}
+
+.name label{
+    display: flex;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name input[type=text]{
+    width: 100%;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    outline: 0;
+}
+
+.email{
+    line-height: 2;
+}
+
+.email input[type=email]{
+    width: 100%;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    outline: 0;
+}
+
+.email label{
+    display: flex;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.idade{
+    line-height: 2;
+}
+
+.idade label{
+    display: flex;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.idade [type=number]{
+    width: 100%;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    outline: 0;
+}
+
+.dropdown{
+    line-height: 2;
+}
+
+.dropdown p{
+    display: flex;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown select{
+    width: 100%;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    outline: 0;
+    color: #495057;
+    font-family: 'Poppins', sans-serif;
+}
+
+.senioridade{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+}
+
+.senioridade p{
+    line-height: 2;
+}
+
+.linguagens{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    outline: 0;
+}
+.linguagens p{
+    margin-bottom: 2px;
+}
+
+.textarea{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.textarea textarea{
+    resize: vertical;
+    width: 100%;
+    height: 140px;
+    outline: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conclusao button{
+    width: 100%;
+    height: 50px;
+    background-color: #37af65;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    border: 0;
+    outline: 0;
+}

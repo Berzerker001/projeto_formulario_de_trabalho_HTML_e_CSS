@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário de pesquisa</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Formulário de Trabalho</h1>
+    <div class="text">
+      <p>Preencha o formulário e fale um pouco sobre você</p>
+    </div>
+    <form class="formulario">
+      <div class="name">
+        <label id="name" for="name">Nome</label>
+        <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+      </div>
+      <!--name-->
+      <br>
+      <div class="email">
+        <label id="email" for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+      </div>
+      <!--email-->
+      <br>
+      <div class="idade">
+        <label id="age" for="age">Idade (opcional)</label>
+        <input type="number" id="age" name="age" placeholder="Coloque sua idade" min="16" max="45">
+      </div>
+      <!--idade-->
+      <br>
+      <div class="dropdown">
+        <p>Qual destas situações mais lhe descreve?</p>
+        <select id="dropdown" name="dropdown" required>
+          <option disabled selected value="">Diga sua atual situação</option>
+          <option value="estudante">Estudante</option>
+          <option value="meioperiodo">Meio-período</option>
+          <option value="estagio">Estagiário</option>
+          <option value="enscompleto">Ensino Superior Completo</option>
+        </select>
+      </div>
+      <!--dropdown-->
+      <br>
+      <div class="senioridade">
+        <p>Qual seu nível atual de senioridade?</p>
+        <input type="radio" name="senioridade" id="senioridade" value="junior">
+        <label for="junior">Júnior</label>
+        <br>
+        <input type="radio" name="senioridade" id="senioridade" value="pleno">
+        <label for="pleno">Pleno</label>
+        <br>
+        <input type="radio" name="senioridade" id="senioridade" value="senior">
+        <label for="senior">Sênior</label>
+      </div>
+      <!--radio-->
+      <br>
+      <div class="linguagens">
+        <p>Na lista abaixo, quais das linguagens você tem mais experiência? (no mínimo 1 ano de experiência)</p>
+        <input type="checkbox" name="linguagem" id="linguagem" value="javascript">
+        <label for="linguagem">JavaScript</label>
+        <br>
+        <input type="checkbox" name="linguagem" id="linguagem" value="python">
+        <label for="linguagem">Python</label>
+        <br>
+        <input type="checkbox" name="linguagem" id="linguagem" value="react">
+        <label for="linguagem">React</label>
+        <br>
+        <input type="checkbox" name="linguagem" id="linguagem" value="sql">
+        <label for="linguagem">SQL</label>
+        <br>
+        <input type="checkbox" name="linguagem" id="linguagem" value="node.js">
+        <label for="linguagem">Node.js</label>
+      </div>
+      <!--linguagens-->
+      <br>
+      <div class="textarea">
+        <p>Fale mais sobre você</p>
+        <textarea placeholder=" Descreva aqui"></textarea>
+      </div>
+      <!--textarea-->
+      <br>
+      <div class="conclusao">
+        <button type="submit" id="enviar" value="enviar">Enviar</button>
+      </div>
+  </div>
+  <!--formulario-->
+  </div>
+  <!--container-->
+  </form>
+</body>
+
+</html>
